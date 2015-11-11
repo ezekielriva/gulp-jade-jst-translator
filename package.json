@@ -1,6 +1,6 @@
 {
   "name": "gulp-jade-jst-translator",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Translate Jade compiled templates to JST namespace",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,9 @@
     "jade",
     "jst"
   ],
+  "dependencies": {
+    "underscore": "^1.7.0"
+  },
   "author": "Ezequiel Rivadeneira Lichardi",
   "license": "MIT",
   "bugs": {
